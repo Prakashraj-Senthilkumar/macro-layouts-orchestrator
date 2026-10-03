@@ -1,0 +1,16 @@
+{
+  "template": "assets/journal-template.indt",
+  "input_dir": "inbox",
+  "output_dir": "out",
+  "runs_dir": "runs",
+  "indesign_exe": "C:\\Program Files\\Adobe\\Adobe InDesign 2025\\InDesign.exe",
+  "worker": "src/extendscript/apply_layout.jsx",
+  "style_map": {
+    "article-title": "Article Title",
+    "sec-title": "Heading 1",
+    "p": "Body Text"
+  },
+  "jobs": [
+    {"id": "J001", "xml": "inbox/sample-article.xml"}
+  ]
+}
